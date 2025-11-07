@@ -151,7 +151,7 @@
             gap: 5px; /* 缩小导航项间距，避免换行 */
           }
           .brand-title {
-            font-size: 0.6em; /* 缩小品牌名称 */
+            font-size: 0.5em; /* 缩小品牌名称 */
           }
           #main-content {
             padding: 10px 5px; /* 减少内容区内边距 */
@@ -176,7 +176,7 @@
           }
     
           .brand-title {
-              font-size: 0.6em; /* 进一步缩小品牌名 */
+              font-size: 0.5em; /* 进一步缩小品牌名 */
           }
     
           .nav-menu {
