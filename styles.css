@@ -217,7 +217,7 @@
           gap: 30px;
           margin: 0;
           padding: 0;
-          flex-wrap: nowrap; /* 导航项在手机端自动换行，避免溢出 */
+          flex-wrap: wrap; /* 导航项在手机端自动换行，避免溢出 */
           justify-content: center; /* 换行后居中显示 */
       }
       .nav-link {
