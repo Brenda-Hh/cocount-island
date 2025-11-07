@@ -132,22 +132,34 @@
       }
 
       @media (max-width:768px){
-          #hero h2{
-              font-size:0.8em;
+          h1 {
+            font-size: 1.8em; /* 缩小一级标题 */
+          }
+          h2 {
+            font-size: 1.5em; /* 缩小二级标题 */
+          }
+          p {
+            font-size: 1em; /* 缩小正文 */
+          }
+          .nav-link {
+            font-size: 0.8em; /* 缩小导航文字 */
+          }
+          #hero h1{
+            font-size:0.8em;
           }
           .nav-menu{
-              gap: 10px; /* 缩小导航项间距，避免换行 */
+            gap: 10px; /* 缩小导航项间距，避免换行 */
           }
           .brand-title {
-              font-size: 1.2em; /* 缩小品牌名称 */
+            font-size: 1.2em; /* 缩小品牌名称 */
           }
           #main-content {
-              padding: 10px 5px; /* 减少内容区内边距 */
+            padding: 10px 5px; /* 减少内容区内边距 */
           }
 
           /* 确保导航链接在小屏幕不换行 */
           .nav-link {
-              font-size: 0.9em; /* 缩小导航文字 */
+            font-size: 0.9em; /* 缩小导航文字 */
           }
       }
 
