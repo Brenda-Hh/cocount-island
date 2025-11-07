@@ -133,25 +133,25 @@
 
       @media (max-width:768px){
           h1 {
-            font-size: 0.5em; /* 缩小一级标题 */
+            font-size: 0.8em; /* 缩小一级标题 */
           }
           h2 {
-            font-size: 0.5em; /* 缩小二级标题 */
+            font-size: 0.6em; /* 缩小二级标题 */
           }
           p {
-            font-size: 0.3em; /* 缩小正文 */
+            font-size: 0.5em; /* 缩小正文 */
           }
           .nav-link {
-            font-size: 0.2em; /* 缩小导航文字 */
+            font-size: 0.4em; /* 缩小导航文字 */
           }
           #hero h1{
-            font-size:0.5em;
+            font-size:0.8em;
           }
           .nav-menu{
             gap: 5px; /* 缩小导航项间距，避免换行 */
           }
           .brand-title {
-            font-size: 0.5em; /* 缩小品牌名称 */
+            font-size: 0.8em; /* 缩小品牌名称 */
           }
           #main-content {
             padding: 10px 5px; /* 减少内容区内边距 */
@@ -160,23 +160,23 @@
 
       @media (max-width: 480px) {
           h1 {
-            font-size: 0.5em; /* 缩小一级标题 */
+            font-size: 0.8em; /* 缩小一级标题 */
           }
           h2 {
-            font-size: 0.5em; /* 缩小二级标题 */
+            font-size: 0.6em; /* 缩小二级标题 */
           }
           p {
-            font-size: 0.3em; /* 缩小正文 */
+            font-size: 0.5em; /* 缩小正文 */
           }
           .nav-link {
-            font-size: 0.2em; /* 缩小导航文字 */
+            font-size: 0.4em; /* 缩小导航文字 */
           }
           .grid-container {
               grid-template-columns: 1fr; /* 强制单列显示，避免拥挤 */
           }
     
           .brand-title {
-              font-size: 0.5em; /* 进一步缩小品牌名 */
+              font-size: 0.8em; /* 进一步缩小品牌名 */
           }
     
           .nav-menu {
