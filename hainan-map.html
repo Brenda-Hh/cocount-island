@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hainan Attractions</title> <!-- 页面标题 -->
+  <link rel="stylesheet" href="styles.css"> <!-- 复用样式文件，保持风格统一 -->
+</head>
+<body>
+  <!-- 复用导航栏（与index.html一致，确保每个页面导航统一） -->
+  <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="brand">
+                   <div class="logo">🌴</div> <!-- 可保留原椰子emoji，与ico图标呼应 -->
+               
+                  </div>
+
+                    <h2 class="brand-title">Coconut Island Sights & Bites</h2>
+                </div>
+               
+                <ul class="nav-menu" id="navMenu">
+                    <!-- 1. 景点页面跳转 -->
+                    <li><a href="attractions.html" class="nav-link">Attractions</a></li>
+                    <!-- 2. 美食页面跳转 -->
+                    <li><a href="food.html" class="nav-link">Food</a></li>
+                    <!-- 3. 旅游贴士页面跳转 -->
+                    <li><a href="travel-tips.html" class="nav-link">Travel Tips</a></li>
+                    <!-- 4. 海南地图页面跳转 -->
+                    <li><a href="hainan-map.html" class="nav-link map-link">Hainan Map</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+  <!-- 景点页面核心内容 -->
+  <div id="main-content">
+    <section id="hero">
+      <h2>Map of Hainan</h2>
+      <p>The entire map of Hainan</p>
+    </section>
+
+    <div id="hainan-map" class="hainan-map" style="margin: 20px 0; text-align: center;">
+    <!-- 地图图片（引用摘要1的海南地图资源，点击可跳转详情页） -->
+      <a href="http://www.shurl.cc/4e7f7ce6f8096513f4061f6c201ee414" target="_blank">
+        <img src="images\Map.webp" 
+             alt="Hainan Map" 
+             style="width: 100%; max-width: 1000px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    </a>
+    <p style="margin-top: 8px; color: var(--primary); font-weight: 600;">Hainan Map</p>
+  </div>
