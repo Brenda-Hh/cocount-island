@@ -175,3 +175,7 @@
       .nav-link:hover {
           color: #3498db;
       }
+      img {
+          max-width: 100%;
+          height: auto; /* 保持宽高比 */
+      }
