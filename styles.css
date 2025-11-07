@@ -36,9 +36,9 @@
       }
       .grid-container {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-          gap: 30px;
-          padding: 20px;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 20px;
+          padding: 15px;
           max-width: 1200px;
           margin: 0 auto;
       }
@@ -54,13 +54,14 @@
           object-fit: cover;
       }
       .grid-item h2 {
-          padding: 0 20px;
+          padding: 0 15px;
           margin-top: 15px;
-          font-size: 1.5em;
+          font-size: 1.3em;
       }
       .grid-item p {
-          padding: 0 20px 20px;
+          padding: 0 15px 15px;
           margin-top: 0;
+          font-size: 1em;
       }
       #hero {
           text-align: center;
@@ -96,8 +97,6 @@
           display: flex;
           align-items: center;
           justify-content: space-between; /* 保持左右布局 */
-      }
-      .header-container {
           width: 100%;
       }
 
@@ -105,9 +104,10 @@
          display: flex;
          flex-wrap: wrap; /* 屏幕变小时自动换行 */
          gap: 1rem;
+         padding: 0 15px
       }
       .card {
-         flex: 1 1 300px; /* 弹性布局，自适应宽度 */
+         flex: 1 1 280px; /* 最小宽度适配手机 */
       }   
 
       .hero-section {
@@ -131,11 +131,44 @@
           background-color: #005fa3; /* hover时加深背景色 */
       }
 
-      @media (max-width:600px){
-          #hero h2{font-size:22px;}
-          .nav-menu{display:none;}
-          .map-link{display: inline-block;}
+      @media (max-width:768px){
+          #hero h2{
+              font-size:1.5em;
+          }
+          .nav-menu{
+              gap: 10px; /* 缩小导航项间距，避免换行 */
+          }
+          .brand-title {
+              font-size: 1.3em; /* 缩小品牌名称 */
+          }
+          #main-content {
+              padding: 10px; /* 减少内容区内边距 */
+          }
+
+          /* 确保导航链接在小屏幕不换行 */
+          .nav-link {
+              font-size: 0.9em; /* 缩小导航文字 */
+          }
       }
+
+       @media (max-width: 480px) {
+          .grid-container {
+              grid-template-columns: 1fr; /* 强制单列显示，避免拥挤 */
+          }
+    
+          .brand-title {
+              font-size: 1.1em; /* 进一步缩小品牌名 */
+          }
+    
+          .nav-menu {
+              gap: 8px;
+          }
+    
+          #hero {
+              padding: 30px 10px; /* 进一步减少Hero区域高度 */
+          }
+       }    
+    
       .header-content {
           display: flex;
           justify-content: space-between;
