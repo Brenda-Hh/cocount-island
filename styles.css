@@ -133,13 +133,13 @@
 
       @media (max-width:768px){
           #hero h2{
-              font-size:1.5em;
+              font-size:0.8em;
           }
           .nav-menu{
               gap: 10px; /* 缩小导航项间距，避免换行 */
           }
           .brand-title {
-              font-size: 1.3em; /* 缩小品牌名称 */
+              font-size: 1.2em; /* 缩小品牌名称 */
           }
           #main-content {
               padding: 10px 5px; /* 减少内容区内边距 */
@@ -198,7 +198,7 @@
           gap: 30px;
           margin: 0;
           padding: 0;
-          flex-wrap: wrap; /* 导航项在手机端自动换行，避免溢出 */
+          flex-wrap: nowrap; /* 导航项在手机端自动换行，避免溢出 */
           justify-content: center; /* 换行后居中显示 */
       }
       .nav-link {
