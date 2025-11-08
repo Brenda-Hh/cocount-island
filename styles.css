@@ -171,7 +171,7 @@
             font-size: 0.6em;
           }
           .brand-title {
-            font-size: 0.65em; /* 缩小品牌名称 */
+            font-size: 0.6em; /* 缩小品牌名称 */
             white-space: nowrap; /* 新增：强制标题文字在一行显示 */
             letter-spacing: -0.5px;
           }
