@@ -147,8 +147,20 @@
           #hero h1{
             font-size:1em;
           }
+          .header-container {
+            flex-wrap: wrap; /* 允许子元素换行 */
+            justify-content: center; /* 整体内容居中 */
+            gap: 10px; /* 两行之间的间距 */
+          }
+          .brand {
+            width: 100%; /* 标题区域占满一行 */
+            justify-content: center; /* 标题和logo居中显示 */
+          }
           .nav-menu{
+            width: 100%;
+            justify-content: center; /* 菜单项居中排列 */
             gap: 5px; /* 缩小导航项间距，避免换行 */
+            padding: 5px 0; /* 上下留出少量空间 */
           }
           .brand-title {
             font-size: 1em; /* 缩小品牌名称 */
