@@ -150,26 +150,26 @@
           .header-container {
             flex-direction: column; /* 纵向排列 */
             justify-content: center; /* 整体内容居中 */
-            gap: 5px; /* 两行之间的间距 */
+            gap: 3px; /* 两行之间的间距 */
           }
           .brand {
             flex-direction: row; /* logo和标题在同一行 */
             align-items: center;
             width: 100%; /* 标题区域占满一行 */
             justify-content: center; /* 标题和logo居中显示 */
-            gap: 5px;
+            gap: 2px;
           }
           .nav-menu{
             width: 100%;
             justify-content: space-around; /* 菜单均匀分布在一行 */
             gap: 2px; /* 缩小导航项间距，避免换行 */
-            padding: 1px 0; /* 上下留出少量空间 */
-            font-size: 0.7em;
+            padding: 0.5px ; /* 上下留出少量空间 */
+            font-size: 0.6em;
           }
           .brand-title {
-            font-size: 0.9em; /* 缩小品牌名称 */
+            font-size: 0.7em; /* 缩小品牌名称 */
             white-space: nowrap; /* 新增：强制标题文字在一行显示 */
-            letter-spacing: 0.5px;
+            letter-spacing: -0.5px;
           }
           #main-content {
             padding: 10px 5px; /* 减少内容区内边距 */
