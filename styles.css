@@ -152,6 +152,10 @@
             justify-content: center; /* 整体内容居中 */
             gap: 3px; /* 两行之间的间距 */
           }
+          .logo svg {
+            width: 24px; /* 比原来小8px */
+            height: 24px;
+          }
           .brand {
             flex-direction: row; /* logo和标题在同一行 */
             align-items: center;
@@ -167,7 +171,7 @@
             font-size: 0.6em;
           }
           .brand-title {
-            font-size: 0.7em; /* 缩小品牌名称 */
+            font-size: 0.65em; /* 缩小品牌名称 */
             white-space: nowrap; /* 新增：强制标题文字在一行显示 */
             letter-spacing: -0.5px;
           }
